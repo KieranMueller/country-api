@@ -50,3 +50,11 @@ body{
 .list{
     list-style-type: none;
 }
+.background{
+    object-fit: contain;
+    position: fixed;
+    z-index: -1;
+    opacity: 0.4;
+    height: 100vh;
+    width:100vw;
+}
